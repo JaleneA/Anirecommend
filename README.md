@@ -1,5 +1,5 @@
 # Anirecommend
-![ani_logo](assests/logo.gif)
+![ani_icon](favicon.png) ![ani_icon](favicon.png) ![ani_icon](favicon.png) ![ani_icon](favicon.png)
 
 **Web Developer Boot Camp 2023 - Anime-Based Tool**
 
@@ -19,4 +19,4 @@ _Mentees_
 - Sean Parasram
 - Alejandro Joseph
 
-[ani_icon](favicon.png) ![ani_icon](favicon.png) ![ani_icon](favicon.png) ![ani_icon](favicon.png)
+![ani_logo](assests/logo.gif)
