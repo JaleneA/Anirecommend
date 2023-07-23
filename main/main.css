@@ -1,1 +1,192 @@
+/* MAIN & DISPLAY SCREEN: STYLE */
+* {
+  font-family: 'Quicksand', sans-serif;
+} 
 
+body {
+  display: block;
+  /* Changed display:flex to block */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("../assests/morningbg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  text-align: center;
+  padding-top: 150px;
+  margin-bottom: 50px;
+}
+
+.fa-search {
+  font-size: 35px;
+  color: white;
+}
+
+#anime-input {
+  width: 900px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+  border-color: transparent;
+}
+
+.typing-container {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: white;
+}
+
+button {
+  background-color:  #EF27A6;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #E82167;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#recommendations-container {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+
+.anime-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.anime-item {
+  display: flex;
+  align-items: center;
+  width: 48%;
+  border: 3px solid #78A1BB;
+  padding: 10px;
+}
+
+.anime-image {
+  flex-shrink: 0;
+  width: 100px;
+}
+
+.anime-image img {
+  width: 100%;
+  height: auto;
+}
+
+.anime-info {
+  flex: 1;
+}
+
+.anime-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.anime-description {
+  font-size: 14px;
+}
+
+.anime-info {
+  margin-left: 10px;
+}
+
+#morningTheme {
+  position: fixed;
+  bottom: 20px;
+  left: 25px;
+  z-index: 99;
+  padding: 10px 15px;
+  background-image: url('../assests/morning.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 70px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+  margin-right: 10px;
+}
+
+#eveningTheme {
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+  z-index: 99;
+  background-image: url('../assests/evening.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 70px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#scrollToTopButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #E83F6F;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+  margin-right: 10px;
+}
+
+#scrollToTopButton:hover {
+  opacity: 1;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.loading-icon {
+  width: 300px;
+  height: 300px;
+  background-image: url('../assests/loadingdance.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
