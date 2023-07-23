@@ -1,5 +1,5 @@
 # Anirecommend
-![_logo](favicon.png) ![fauna_logo](favicon.png) ![fauna_logo](favicon.png) ![fauna_logo](favicon.png)
+!(assests/logo.gif)
 
 **Web Developer Boot Camp 2023 - Anime-Based Tool**
 
@@ -18,3 +18,5 @@ _Mentees_
 - Briana Fonrose
 - Sean Parasram
 - Alejandro Joseph
+
+!(favicon.png) !(favicon.png) !(favicon.png) !(favicon.png)
