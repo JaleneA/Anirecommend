@@ -9,8 +9,8 @@ header {
   background-color: #160c28;
   flex-direction: column;
   opacity: 0.9;
+  height: 100vh;
   width: 100vw;
-  height: 20vh;
   justify-content: center;
   /* Changing This From Flex-start to Center Removed The Spacing It Had Above */
   z-index: 999;
