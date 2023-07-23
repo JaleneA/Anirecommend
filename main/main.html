@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Anirecommend</title>
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Quicksand:wght@500&family=Tektur&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <section class="container">
+    <div class="typing-container"><i class="fas fa-search"></i> Animes Like: <span class="auto-type"></span>
+    </div>
+    <label for="anime-input"></label>
+    <input type="text" id="anime-input" placeholder="Animes Like...">
+    <br><br>
+    <button onclick="getRecommendations()">Search</button>
+    <a href="../index.html"><button id="backBtn">Home</button></a>
+    <div id="loading-container">
+      <div id="loadingIcon" class="loading-icon hidden"></div>
+    </div>
+  </section>
+
+  <button id="scrollToTopButton" title="Go to Top">To Top</button>
+  <button id="morningTheme"></button>
+  <button id="eveningTheme"></button>
+  <main id="recommendations-container"></main>
+
+  <footer>
+
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="main.js"></script>
+
+  <!-- <a href="https://www.flaticon.com/free-icons/pm" title="pm icons">Pm icons created by Freepik - Flaticon</a>
+  <a href="https://www.flaticon.com/free-icons/morning" title="morning icons">Morning icons created by Freepik - Flaticon</a>
+  --!>
+</body>
+
+</html>
