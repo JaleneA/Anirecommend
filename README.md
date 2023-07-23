@@ -13,9 +13,9 @@ _Mentor_
 - Jalene Armstrong
 
 _Mentees_
-- Jodi Barrow
 - Jada Barrow
 - Briana Fonrose
+- Jodi Barrow
 - Sean Parasram
 - Alejandro Joseph
 
