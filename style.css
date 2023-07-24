@@ -167,3 +167,9 @@ h1,
 h2 {
   color: #EDF5FC;
 }
+
+@media screen and (max-width: 600px) {
+  .edit-container {
+    display: none;
+  }
+}
